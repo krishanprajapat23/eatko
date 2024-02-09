@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>EATKO</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+  </head>
+  <body class="notranslate">
+    <!-- search bar canvas -->
+      <div class="offcanvas offcanvas-top dark-bg" tabindex="-1" id="searchBar" aria-labelledby="searchBar">
+        <div class="offcanvas-body">
+          <div class="content py-5">
+            <div class="row justify-content-center">
+              <div class="form-wrap col-xxl-6 col-lg-8 col-sm-10">
+                <div class="input-group">
+                  <input type="text" class="form-control border" placeholder="search here....">
+                  <button type="button" class="btn theme-btn"><i class="far fa-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header>
+        <div class="container-lg container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo_main.png" alt="eatko" width="125">
+                   <span class="visually-hidden">Eatko</span>           
+                  </a>
+                  <a class="search-btn border-0 btn order-lg-3 ms-lg-2 ms-auto me-lg-0 me-3" data-bs-toggle="offcanvas" href="#searchBar" role="button" aria-controls="searchBar"><i class="far fa-search"></i></a>
+                  <div type="button" class="navbar-toggler burger-menu inline-block" data-bs-toggle="collapse" data-bs-target="#headerNavMenu" aria-controls="headerNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                  </div>
+                  <div class="collapse navbar-collapse" id="headerNavMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Promo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </header>
+      <!--  -->
+      <!--  -->
+      <section class="hero-sec">
+        <div class="row g-0">
+          <div class="col-md-5">
+              <div class="hero-section-area">
+                  <img src="assets/img/banner-img.jpeg" class="position-relative h-100 w-100" alt="hero-image">
+              </div>
+          </div>
+          <div class="col-md-7">
+            <div class="container-md px-md-0 pe-0 container-fluid">
+              <div class="banner-one-wrapper">
+                <div class="content wow fadeIn">
+                  <h1 class="title-banner display-2 stylish-font">Delicious Foods</h1>
+                  <p class="desc">A distinctive, well-preserved and comfortable space, high-quality products, authentic cuisine, food & drinks are done flawlessly.</p>
+                  <div class="button-area-banner">
+                      <a href="#" class="btn theme-btn">Order Now</a>
+                  </div>
+                </div>
+                  <div class="banner-particles">
+                    <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-2.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-3.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-4.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-5.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+                    <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="best-seller-sec">
+        <div class="container-lg container-fluid">
+          <div class="sec-header text-center pb-lg-5 pb-3">
+            <h2 class="mb-1 display-4">Featured recipes</h2>
+            <p class="desc mb-0">From savory delights to sweet sensations, each dish is crafted with passion and precision</p>
+          </div>
+          <div class="content">
+            <div class="row justifyc-content-center">
+              <div class="col-md-4">
+                <div class="recipe-wrapper text-center wow fadeInLeft">
+                  <a href="#">
+                    <div class="img-wrap">
+                      <img src="./assets/img/food-1.jpeg" alt="food" class="img-fluid h-100 w-100 object-fit-cover">
+                    </div>
+                    <h3>sliced potato pie</h3>
+                    <div class="desc">sliced potato pie with delicious pie cake</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="recipe-wrapper text-center wow fadeIn">
+                  <a href="#">
+                    <div class="img-wrap">
+                      <img src="./assets/img/food-2.avif" alt="food" class="img-fluid h-100 w-100 object-fit-cover">
+                    </div>
+                    <h3>Delicious Pasta</h3>
+                    <div class="desc">Grab a fork & twirl! - Pasta is always a good idea</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="recipe-wrapper text-center wow fadeInRight">
+                  <a href="#">
+                    <div class="img-wrap">
+                      <img src="./assets/img/food-3.avif" alt="food" class="img-fluid h-100 w-100 object-fit-cover">
+                    </div>
+                    <h3>fried egg</h3>
+                    <div class="desc">Having a fried egg beside a buttered piece of toast</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="single-food-sec top-bg">
+        <div class="container-lg container-fluid">
+          <div class="content wow fadeInUp">
+            <div class="row g-4 align-items-center justify-content-center">
+              <div class="col-md-6">
+                <div class="img-wrap me-md-auto ms-md-initial mx-auto">
+                  <img src="./assets/img/food-4.avif" class="w-100 img-fluid" alt="food">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content text-md-start text-center">
+                  <h2 class="mb-1 display-4 text-capitalize">Food Thali from India</h2>
+                  <p class="desc">Every city in India has its flavor, where tradition meets taste. Food is symbolic of love when words are inadequate.</p>
+                  <div class="button-area-banner">
+                      <a href="#" class="btn theme-btn">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="counter-sec dark-bg position-relative">
+        <div class="banner-particles">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-2.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-3.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-4.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-5.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+        </div>
+        <div class="container-lg container-fluid">
+          <div class="sec-header text-center wow fadeInUp">
+            <h2 class="mb-1 display-4 text-capitalize">Statistics</h2>
+            <p class="desc">These captivating statistics provide a unique insight into the culinary landscape, highlighting the incredible achievements and contributions of chefs.</p>
+          </div>
+          <div class="content wow fadeInUp">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-3 col-sm-6">
+                <div class="inner-content d-flex flex-column align-items-center justify-content-center gap-1">
+                  <span class="data counter"> 50</span>
+                  <span class="data-related text-uppercase">Outlets</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="inner-content d-flex flex-column align-items-center justify-content-center gap-1">
+                  <span class="data counter">25</span>
+                  <span class="data-related text-uppercase">Chefs</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="inner-content d-flex flex-column align-items-center justify-content-center gap-1">
+                  <span class="data counter">250</span>
+                  <span class="data-related text-uppercase">Menu</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="inner-content d-flex flex-column align-items-center justify-content-center gap-1">
+                  <span class="data counter">22</span>
+                  <span class="data-related text-uppercase">States</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!--  -->
+      <!--  -->
+      <section class="single-food-sec position-relative bottom-bg">
+        <div class="content wow fadeInUp">
+          <div class="container-lg container-fluid">
+            <div class="row g-4 align-items-center justify-content-center flex-row-reverse">
+              <div class="col-md-6">
+                <div class="img-wrap ms-md-auto mx-auto">
+                  <img src="./assets/img/food-5.avif" class="w-100 img-fluid" alt="food">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content text-md-start text-center">
+                  <h2 class="mb-1 display-4 text-capitalize">Simplicity in bowl</h2>
+                  <p class="desc">Noodles make everything better – bad days become good days and good days become great.</p>
+                  <div class="button-area-banner">
+                      <a href="#" class="btn theme-btn">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="showcase-sec">
+        <div class="container-lg container-fluid">
+          <div class="content wow fadeInUp text-center py-lg-5 py-4">
+            <p class="fs-2 fw-bold">Traditional Indian food is renowned worldwide for its wonderful use of herbs and spices</p>
+            <h3 class="text-capitalize mb-1 display-4">traditional Indian food</h3>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section class="subscribe-sec">
+        <div class="banner-particles">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-2.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-3.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-4.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-5.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+          <img src="./assets/img/particle-1.png" class="position-absolute particle-img" alt="">
+        </div>
+        <div class="container-lg container-fluid">
+          <div class="content text-center wow fadeInUp">
+            <h3 class="text-capitalize mb-1 display-4">Subscribe</h3>
+            <p class="desc mb-4">The most important breaking news of the newest food and beverage products updates that occurred over night.</p>
+            <div class="col-md-8 col-sm-10 mx-auto">
+              <div class="input-group my-3">
+                <input type="email" class="form-control" id="email" placeholder="Your email address">
+                <button type="button" class="btn theme-btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Footer -->
+    <footer class="py-lg-5 py-4 dark-bg">
+      <div class="container-lg container-fluid">
+        <div class="ft-content wow fadeInUp">
+          <div class="row justify-content-center g-4">
+            <div class="col-lg-5">
+              <div class="content">
+                <a href="#" class="d-inline-block mb-3 navbar-brand"><img width="125" src="./assets/img/logo_main.png" class="img-fluid" alt="eatko"></a>
+                <p class="desc mb-2">We believe that every meal should be a celebration.</p>
+                <div class="social-wrapper d-flex align-items-center">
+                  <a href="#" class="social-link border-0 rounded-circle d-inline-flex justify-content-center align-items-center"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-link border-0 rounded-circle d-inline-flex justify-content-center align-items-center"><i class="fab fa-whatsapp"></i></a>
+                  <a href="#" class="social-link border-0 rounded-circle d-inline-flex justify-content-center align-items-center"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-link border-0 rounded-circle d-inline-flex justify-content-center align-items-center"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row g-3">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="content">
+                    <div class="h5 title fw-bold text-uppercase mb-3">About</div>
+                    <div class="links-wrapper">
+                      <a href="#" class="link">History</a>
+                      <a href="#" class="link">Our Team</a>
+                      <a href="#" class="link">Brand Guidelines</a>
+                      <a href="#" class="link">Terms & Condition</a>
+                      <a href="#" class="link">Privacy Policy</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="content">
+                    <div class="h5 title fw-bold text-uppercase mb-3">Services</div>
+                    <div class="links-wrapper">
+                      <a href="#" class="link">How to Order</a>
+                      <a href="#" class="link">Our Product</a>
+                      <a href="#" class="link">Order Status</a>
+                      <a href="#" class="link">Promo</a>
+                      <a href="#" class="link">Payment Method</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="content">
+                    <div class="h5 title fw-bold text-uppercase mb-3">Other</div>
+                    <div class="links-wrapper">
+                      <a href="#" class="link">Contact Us</a>
+                      <a href="#" class="link">Help</a>
+                      <a href="#" class="link">Privacy</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- back to top -->
+    <div class="progress-wrap active-progress shadow">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path fill="#fff" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
+        </svg>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/backToTop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>
+
